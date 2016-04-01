@@ -1,0 +1,30 @@
+{
+  "name": "analytics-element",
+  "authors": [
+    "Guillermo de la Iglesia <zguillez@gmail.com>"
+  ],
+  "description": "Google Analytics pixel custom-element",
+  "main": "analytics-element.html",
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "polymer",
+    "google",
+    "analytics",
+    "google-analytics",
+    "web-components"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "^1.4.0"
+  }
+}
