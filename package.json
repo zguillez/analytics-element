@@ -1,6 +1,6 @@
 {
   "name": "analytics-element",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": [
     "Guillermo de la Iglesia <zguillez@gmail.com>"
   ],
@@ -14,5 +14,14 @@
     "google-analytics",
     "web-components"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "napa": "^2.3.0"
+  },
+  "scripts": {
+    "install": "napa"
+  },
+  "napa": {
+    "polymer": "polymer/polymer"
+  }
 }
