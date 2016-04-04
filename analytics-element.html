@@ -15,15 +15,15 @@
 	<script>Polymer({
 		is: 'element-analytics',
 		properties: {
-			id: String,
+			uid: String,
 			observer: '_idChanged'
 		},
 		ready: function () {
-			ga('create', this.id, 'auto');
+			ga('create', this.uid, 'auto');
 			ga('send', 'pageview');
 		}  ,
 		_idChanged: function () {
-			ga('set', '&uid', this.id);
+			ga('set', '&uid', this.uid);
 		}
 	});</script>
 </dom-module>
