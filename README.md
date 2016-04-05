@@ -24,12 +24,12 @@ Google Analytics custom-element for Polymer.
 
 - Import the component to the HTML file.
 - Add the component tag.
-- Insert the UID tracking for Google Analytics
+- Insert the ID tracking for Google Analytics
 
 Example code: 
 	
 	<link rel="import" href="bower_componets/analytics-element/analytics-element.html">
-	<element-analytics uid="UA-XXXXXXXX-X"/>
+	<element-analytics id="UA-XXXXXXXX-X"/>
 
 
 # Contributing and issues

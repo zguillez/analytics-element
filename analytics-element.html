@@ -15,16 +15,19 @@
 	<script>Polymer({
 		is: 'element-analytics',
 		properties: {
+			id: {
+				type: String
+			},
 			uid: {
 				type: String,
-				observer: '_idChanged'
+				observer: '_userIdChanged'
 			}
 		},
 		ready: function () {
-			ga('create', this.uid, 'auto');
+			ga('create', this.id, 'auto');
 			ga('send', 'pageview');
 		},
-		_idChanged: function () {
+		_userIdChanged: function () {
 			ga('set', '&uid', this.uid);
 		}
 	});</script>
