@@ -7,10 +7,6 @@
 Google Analytics custom-element for Polymer.
 
 # Getting Started
-
-### Download component with Bower
-
-	bower i analytics-element --save
 	
 ### Download component with NPM
 
@@ -18,7 +14,7 @@ Google Analytics custom-element for Polymer.
 
 ## Requeriments
 
-### [Bower](http://bower.io//)
+### [Polymer](https://www.polymer-project.org/1.0/)
 
 # Usage
 
@@ -28,7 +24,7 @@ Google Analytics custom-element for Polymer.
 
 Example code: 
 	
-	<link rel="import" href="bower_componets/analytics-element/analytics-element.html">
+	<link rel="import" href="node_modules/analytics-element/analytics-element.html">
 	<element-analytics id="UA-XXXXXXXX-X"/>
 
 
