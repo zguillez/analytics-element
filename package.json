@@ -15,13 +15,7 @@
     "web-components"
   ],
   "license": "MIT",
-  "devDependencies": {
-    "napa": "^2.3.0"
-  },
-  "scripts": {
-    "install": "napa"
-  },
-  "napa": {
-    "polymer": "polymer/polymer"
+  "dependencies": {
+    "@polymer/polymer": "^1.2.5-npm-test.2"
   }
 }
